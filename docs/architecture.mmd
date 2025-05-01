@@ -1,0 +1,25 @@
+mermaid
+graph TD
+    subgraph Agent A [LangChain Agent]
+        A1[LLM]
+        A2[A2AChain Adapter]
+    end
+
+    subgraph Agent B [AutoGen Agent]
+        B1[AutoGen Core]
+        B2[AutoGen Adapter]
+    end
+
+    A1 --> A2
+    A2 --> M1[Envelope + Payload]
+    M1 --> T[Transport Layer (HTTP/gRPC)]
+    T --> B2
+    B2 --> B1
+
+    M1 -->|Log| CLI[Simulator / CLI Tools]
+    CLI --> Dev[Developer Testing]
+
+    Registry[Agent Discovery Service]
+    A2 --> Registry
+    B2 --> Registry
+```
