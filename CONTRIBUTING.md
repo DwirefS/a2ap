@@ -1,3 +1,1 @@
-# Contributing to A2AP
-
-Thank you for contributing! Please read guidelines before opening PRs.
+Contribution guidelines: how to fork, branch, commit, PR, and testing strategy for A2AP SDK.

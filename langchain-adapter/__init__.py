@@ -1,1 +1,0 @@
-# Adapter for LangChain agents

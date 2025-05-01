@@ -1,3 +1,3 @@
-# SDK Reference
+# A2AP SDK Reference
 
-Usage examples, API methods, and integration guides.
+Install, message creation API, LangChain adapter usage, simulation tools, and integration patterns.

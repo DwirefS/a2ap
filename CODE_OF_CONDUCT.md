@@ -1,3 +1,1 @@
-# Code of Conduct
-
-Be respectful. Collaborate openly. Report concerns to maintainers.
+Community standards for respectful and inclusive contributions to the A2AP ecosystem.

@@ -1,3 +1,3 @@
-# RFC Draft: A2AP Protocol v0.1
+# RFC Draft v0.1 – A2AP
 
-Message structure, Envelope+Payload format, and security layers.
+Defines the message format (Envelope + Payload), agent discovery, supported transports, security model, and governance principles.
